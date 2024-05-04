@@ -5,8 +5,8 @@ import { StatusBar } from 'expo-status-bar';
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from './Screens/HomeScreen';
-import DetailsScreen from './Screens/DetailsScreen';
+import HomeScreen from './telas/HomeScreen';
+import DetailsScreen from './telas/DetailsScreen';
  
 const Stack = createStackNavigator();
  
